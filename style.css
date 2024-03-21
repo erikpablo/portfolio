@@ -1,0 +1,14 @@
+body {
+  background: #22212C;
+  color:  #837E9F;
+  padding: 40px 40px;
+}
+
+#profile {
+  width: 348px;
+  height: 292px;
+
+  background: #302F3D;
+  border-radius: 20px;
+  text-align: center;
+}
