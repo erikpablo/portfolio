@@ -4,6 +4,11 @@ body {
   padding: 40px 40px;
 }
 
+nav a {
+  display: flex;
+  align-items: center;
+}
+
 #profile {
   width: 348px;
   height: 292px;
@@ -11,4 +16,36 @@ body {
   background: #302F3D;
   border-radius: 20px;
   text-align: center;
+  box-shadow: 1px 3px 4px #0f0f11;
+}
+
+#linksp a {
+  display: flex;
+  align-items: center;
+}
+
+.card a{
+  display: flex;
+  flex-direction: column;
+  
+  width: 461px;
+  height: 186px;
+  padding: 30px 30px;
+  border-radius: 20px;
+  text-decoration: none;
+
+  background: #302F3D;
+  color: #837E9F;
+  box-shadow: 1px 3px 4px #0f0f11;
+}
+
+.card a div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card a div div span{
+  display: flex;
+  align-items: center;
 }
