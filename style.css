@@ -1,12 +1,16 @@
 body {
+  display: flex;
+  gap: 60px;
   background: #22212C;
   color:  #837E9F;
   padding: 40px 40px;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
-nav a {
+#journey {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  gap: 30px;
 }
 
 #profile {
@@ -17,6 +21,49 @@ nav a {
   border-radius: 20px;
   text-align: center;
   box-shadow: 1px 3px 4px #0f0f11;
+}
+
+#profile img {
+  margin: 32px 0 30px;
+}
+
+#profile h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+#profile p {
+  margin: 10px 0 49px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.social {
+  width: 348px;
+  height: 348px;
+  background: #302F3D;
+  border-radius: 20px;
+  box-shadow: 1px 3px 4px #0f0f11;
+}
+
+.social nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 30px 40px;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #837E9F;
 }
 
 #linksp a {
