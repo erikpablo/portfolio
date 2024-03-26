@@ -71,6 +71,91 @@ nav a {
   align-items: center;
 }
 
+#tech {
+
+  width: 348px;
+  height: 208px;
+  
+  background: #302F3D;
+  border-radius: 20px;
+  box-shadow: 1px 3px 4px #0f0f11;
+}
+
+#tech h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 30px 0 0 20px;
+}
+
+#tech div {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 20px 30px 30px;
+  gap: 15px;
+}
+
+#tech div span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 86px;
+  height: 24px;
+
+  font-size: 10px;
+  font-weight: bold;
+
+  border-radius: 30px;
+
+  background: #CB92B1;
+  color: #000;
+}
+
+#infor {
+  width: 348px;
+  height: 349px;
+
+  background: #302F3D;
+  border-radius: 20px;
+  box-shadow: 1px 3px 4px #0f0f11;
+}
+
+#infor h2 {
+  font-size: 20px;
+  font-weight: bold;
+
+  margin: 30px 20px 20px;
+}
+
+#infor ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  width: 175px;
+  height: 243px;
+
+  margin: 0 133px 30px 50px;
+  padding: 0;
+  align-items: left;
+}
+
+ul li {
+
+  font-size: 12px;
+  font-weight: 300px;
+
+  text-align: left;
+}
+
+ul li strong {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
 .card a{
   display: flex;
   flex-direction: column;
