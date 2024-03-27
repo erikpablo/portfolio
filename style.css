@@ -131,7 +131,7 @@ nav a {
 #infor ul {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 
   width: 175px;
   height: 243px;
@@ -142,9 +142,8 @@ nav a {
 }
 
 ul li {
-
   font-size: 12px;
-  font-weight: 300px;
+  font-weight: 300;
 
   text-align: left;
 }
@@ -155,29 +154,89 @@ ul li strong {
   font-weight: bold;
 }
 
+ul li span {
+  font-weight: 400;
+}
 
-.card a{
+#projects {
   display: flex;
   flex-direction: column;
-  
+  gap: 30px;
+}
+
+.mypro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 952px;
+  height: 86px;
+  background: #302F3D;
+  border-radius: 20px;
+  box-shadow: 1px 3px 4px #0f0f11;
+}
+
+.mypro h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.mypro p {
+  font-size: 14px;
+  margin-right: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
   width: 461px;
   height: 186px;
-  padding: 30px 30px;
-  border-radius: 20px;
-  text-decoration: none;
-
   background: #302F3D;
-  color: #837E9F;
+  border-radius: 20px;
   box-shadow: 1px 3px 4px #0f0f11;
+}
+
+.card a {
+  color: #837E9F;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+.card a span {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.card a p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
 }
 
 .card a div {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 
-.card a div div span{
+.card a div div {
   display: flex;
-  align-items: center;
+  gap: 16px;
 }
+
+.card a div div span, p {
+  display: flex;
+  gap: 8px;
+
+  font-size: 14px;
+  font-weight: 400;
+}
+
