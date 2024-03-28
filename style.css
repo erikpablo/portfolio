@@ -232,7 +232,7 @@ ul li span {
   gap: 16px;
 }
 
-.card a div div span, p {
+.card a div div span, .card a div p {
   display: flex;
   gap: 8px;
 
@@ -240,3 +240,67 @@ ul li span {
   font-weight: 400;
 }
 
+h4 {
+  box-sizing: border-box;
+  width: 952px;
+  height: 86px;
+  padding: 30px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  background: #302F3D;
+
+  border-radius: 20px;
+  box-shadow: 1px 3px 4px #0f0f11;
+}
+
+#recent {
+  box-sizing: border-box;
+  width: 952px;
+  height: 201px;
+  padding: 30px 30px 40px;
+
+  background: #302F3D;
+
+  border-radius: 20px;
+  box-shadow: 1px 3px 4px #0f0f11;
+}
+
+#recent a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  color: #837E9F;
+  text-decoration: none;
+  width: 612px;
+  height: 129px;
+}
+
+#recent a div div {
+  display: flex;
+  gap: 10px;
+}
+
+#recent a div h2 {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#recent a div p {
+  margin: 10px 0 28px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#recent a div h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#recent a div div span {
+  font-size: 14px;
+  font-weight: 300;
+}
