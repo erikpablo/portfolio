@@ -242,8 +242,10 @@ ul li span {
 
 h4 {
   box-sizing: border-box;
+
   width: 952px;
   height: 86px;
+  margin: 0;
   padding: 30px;
 
   font-size: 20px;
