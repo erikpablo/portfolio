@@ -1,6 +1,7 @@
 body {
   display: flex;
   gap: 60px;
+  justify-content: center;
   background: #22212C;
   color:  #837E9F;
   padding: 40px 40px;
