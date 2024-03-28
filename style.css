@@ -160,7 +160,6 @@ ul li span {
 }
 
 #projects {
-  padding-right: 40px;
   display: flex;
   flex-direction: column;
   gap: 30px;
