@@ -1,3 +1,32 @@
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bbb-card {
+  background: #302f3d;
+  border-radius: 20px;
+  box-shadow: 1px 3px 4px #0f0f11;
+}
+
+.font-300 {
+  font-weight: 300;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.font-600 {
+  font-weight: 600;
+}
+
+.font-700 {
+  font-weight: 700;
+}
+
+/*classes auxiliares*/
+
 * {
   box-sizing: border-box;
 }
@@ -69,13 +98,15 @@ nav a {
 .tech {
   width: 348px;
   height: 208px;
+
+  position: relative;
 }
 
 .tech h2 {
   margin: 30px 0 0 20px;
 }
 
-.tech div {
+.tech .tech2 {
   display: flex;
   flex-wrap: wrap;
 
@@ -83,7 +114,7 @@ nav a {
   gap: 15px;
 }
 
-.tech div span {
+.tech .tech2 span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -98,6 +129,51 @@ nav a {
 
   background: #cb92b1;
   color: #000;
+
+  cursor: pointer;
+}
+
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  top: 55%;
+
+  height: 170px;
+  width: 240px;
+
+  text-align: center;
+  transition: visibility 1s;
+
+  background: linear-gradient(180deg, #d87f0a 40%, #302f3d 60%);
+}
+
+.tooltip svg {
+  margin: 10px;
+}
+
+.tooltip p {
+  margin: 15px auto;
+  font-size: 12px;
+
+  text-align: center;
+  color: #837e9f;
+}
+
+.tech .tech2 span:hover .tooltip {
+  visibility: visible;
+}
+
+.tooltip:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  border-bottom: 8px solid #d87f0a;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
 }
 
 .infor {
@@ -262,29 +338,4 @@ h4 {
 
 .recent a div div span {
   font-size: 14px;
-}
-
-/*classes auxiliares*/
-
-.title {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.bbb-card {
-  background: #302f3d;
-  border-radius: 20px;
-  box-shadow: 1px 3px 4px #0f0f11;
-}
-
-.font-300 {
-  font-weight: 300;
-}
-
-.font-400 {
-  font-weight: 400;
-}
-
-.font-700 {
-  font-weight: 700;
 }
